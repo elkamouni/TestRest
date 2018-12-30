@@ -69,7 +69,7 @@ public class Main {
 //                 .header("Accept","application/json")
 //                 .header("Authorization","User whbRuRxUFE4vBBC3NXFjl/s4/2y217E9MqQeg6C7jnU=, Organization 4be4516a1c9fe923602087d86eb6645a, Element tJhGNMoqr6ZEi6AeKSHYjPHeBWY2/MKXKGWsXRJ6RlE=")
 //                 .header("Content-Type","multipart/form-data")
-//                 .field("file",new File("/Users/shirishakodimala/Downloads/doc-1.pdf"))
+//                 .field("file",new File("/Users/<user>/Downloads/doc-1.pdf"))
 //                 .field("type","application/pdf")
 //                 .asJson();
 //         System.out.println(response2.getBody());
