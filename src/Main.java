@@ -62,6 +62,18 @@ public class Main {
                 .asJson();
         System.out.println(response1.getStatus());
         System.out.println(response1.getBody());
+        
+        
+//         HttpResponse<JsonNode> response2 = Unirest.post("https://staging.cloud-elements.com/elements/api-v2/files")
+//                 .queryString("path","/doc-1.pdf")
+//                 .header("Accept","application/json")
+//                 .header("Authorization","User whbRuRxUFE4vBBC3NXFjl/s4/2y217E9MqQeg6C7jnU=, Organization 4be4516a1c9fe923602087d86eb6645a, Element tJhGNMoqr6ZEi6AeKSHYjPHeBWY2/MKXKGWsXRJ6RlE=")
+//                 .header("Content-Type","multipart/form-data")
+//                 .field("file",new File("/Users/shirishakodimala/Downloads/doc-1.pdf"))
+//                 .field("type","application/pdf")
+//                 .asJson();
+//         System.out.println(response2.getBody());
+//         System.out.println(response2.getStatus());
 
     }
 
